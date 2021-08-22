@@ -1,6 +1,6 @@
 # Fun With CSS
 ### Learning Objectives:
-This project is a challenge to experiment and implement layouts with HTML and CSS ONLY!
+This project is a challenge to experiment with and implement layouts using HTML and CSS ONLY!
 
 Yes,
 
