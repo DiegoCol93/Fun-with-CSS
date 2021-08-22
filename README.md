@@ -1,7 +1,8 @@
 # Fun With CSS
 ### Learning Objectives:
-In this project, you will experiment and implement fun layout with HTML and CSS ONLY!
-Yes, no JavaScript!
+This project is a challenge to experiment and implement layouts with HTML and CSS ONLY!
+Yes,
+No JavaScript!
 Enjoy!
 
 ---
