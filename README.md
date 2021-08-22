@@ -28,7 +28,7 @@ Generate this layout where the underline is hidden by default and appears slowly
 html: [1-line.html](1-line.html)
 
 Solution:
-![HelloHolberton.gif](HelloHolberton.gif)
+![HelloHolbertonCSS.gif](HelloHolbertonCSS.gif)
 [1-styles.css](1-styles.css)
 
 ---
