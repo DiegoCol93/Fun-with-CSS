@@ -20,3 +20,15 @@ You're not allowed to change the image nor the HTML, *sprites are cool!*
 Solution: [0-styles.css](0-styles.css)
 
 ---
+#### 1. Move the (under)line
+##### Layout:
+![layout](1-layout.gif)
+
+Generate this layout where the underline is hidden by default and appears slowly…
+html: [1-line.html](1-line.html)
+
+Solution:
+![HelloHolberton.gif](HelloHolberton.gif)
+[1-styles.css](1-styles.css)
+
+---
