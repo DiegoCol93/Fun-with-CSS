@@ -14,6 +14,6 @@ By using the html in [0-Spritelanguages.html](**0-Spritelanguages.html**) and th
 
 You're not allowed to change the image nor the HTML, *sprites are cool!*
 
-My solution: [0-styles.css](0-styles.css)
+Solution: [0-styles.css](0-styles.css)
 
 ---
