@@ -9,6 +9,6 @@ Enjoy!
 By using the html in **0-spritelanguages.html** and the image **0-sprite.png** generate the given layout.\
 [0-Spritelanguages.html](0-Spritelanguages.html)\
 [0-styles.css](0-styles.css)\
-[0-sprite.png](0-sprite.png)\
+![0-sprite.png](0-sprite.png)\
 You're not allowed to change the image and the HTML, *sprites are cool!*
 
