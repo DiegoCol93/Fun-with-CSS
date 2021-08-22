@@ -4,6 +4,7 @@ In this project, you will experiment and implement fun layout with HTML and CSS 
 Yes, no JavaScript!
 Enjoy!
 
+---
 #### 0. Sprite languages
 ##### Layout:
 ![layout](0-layout.png)
