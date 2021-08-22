@@ -2,11 +2,9 @@
 ### Learning Objectives:
 This project is a challenge to experiment with and implement layouts using HTML and CSS ONLY!
 
-Yes,
+Yes
 
 No JavaScript!
-
-Enjoy!
 
 ---
 #### 0. Sprite languages
