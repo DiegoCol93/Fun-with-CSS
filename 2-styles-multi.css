@@ -1,0 +1,107 @@
+/* General ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+input {
+  display: none;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle {
+  margin: 1em;
+}
+
+.toggles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Label ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ */
+.toggle-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 2.5em;
+  width: 8em;
+  cursor: pointer;
+}
+
+
+/* Inner ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ */
+.toggle-inner {
+  display: inline-block;
+  position: absolute;
+  align-self: flex-start;
+  height: 2.5em;
+  width: 8em;
+  border: solid .1em #BBBBBB;
+  border-radius: 2.5em;
+  transition: .4s ease-in-out background-color;
+}
+
+[id^="toggle-0"]:checked ~ label .toggle-inner {
+  background-color: #E1013C;
+}
+
+.toggle-inner::before {
+  content: "No";
+  position: absolute;
+  font-weight: bold;
+  height: 100%;
+  width: 50%;
+  font-size: 1.5em;
+  line-height: 1.55em;
+  padding-left: 2.75em;
+  color: #BBBBBB;
+  transition: .2s ease-in-out opacity;
+}
+
+
+[id^="toggle-0"]:checked ~ label .toggle-inner::before {
+  opacity: 0;
+}
+
+.toggle-inner::after {
+  content: "Yes";
+  opacity: 0;
+  position: absolute;
+  font-weight: bold;
+  height: 100%;
+  width: 50%;
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 1.55em;
+  padding-left: 1em;
+  color: #FFFFFF;
+  transition: .2s ease-in-out opacity;
+}
+
+[id^="toggle-0"]:checked ~ label .toggle-inner::after {
+  opacity: 1;
+}
+
+
+/* Switch ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ */
+.toggle-switch {
+  position: relative;
+  align-self: center;
+  height: 3em;
+  width: 3em;
+  border: solid .1em #BBBBBB;
+  background-color: #FFFFFF;
+  border-radius: 3em;
+  transition: .4s ease-in-out transform;
+}
+
+[id^="toggle-0"]:checked ~ label .toggle-switch {
+  transform: translateX(5em);
+}
