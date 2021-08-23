@@ -32,3 +32,15 @@ Solution:
 [1-styles.css](1-styles.css)
 
 ---
+
+#### 2. Toggle
+##### Layout:
+![layout](2-layout.png)
+
+generate this layout where the <input> has this custom toggle.
+
+Solution:
+![ToggleHolberton.gif](ToggleHolberton.gif)
+[2-styles.css](2-styles.css)
+
+---
