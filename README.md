@@ -30,6 +30,7 @@ html: [1-line.html](1-line.html)
 
 Solution: [1-styles.css](1-styles.css)
 ![HelloHolbertonCSS.gif](HelloHolbertonCSS.gif)
+
 ---
 ### 2. Toggle
 #### Layout:
@@ -41,6 +42,7 @@ Generate this layout where the <input> has this custom toggle
 
 Solution: [2-styles.css](2-styles.css)
 ![ToggleHolberton.gif](ToggleHolberton.gif)
+
 ---
 ### 3. Menu
 #### Layout:
@@ -50,4 +52,3 @@ Generate this layout/animation
 
 Solution: [3-styles.css](3-styles.css)
 ![MenuHolberton.gif](MenuHolberton.gif)
----
