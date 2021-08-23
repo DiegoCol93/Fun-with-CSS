@@ -28,12 +28,9 @@ Generate this layout where the underline is hidden by default and appears slowly
 
 html: [1-line.html](1-line.html)
 
-Solution:
+Solution: [1-styles.css](1-styles.css)
 ![HelloHolbertonCSS.gif](HelloHolbertonCSS.gif)
-[1-styles.css](1-styles.css)
-
 ---
-
 ### 2. Toggle
 #### Layout:
 
@@ -42,18 +39,15 @@ Generate this layout where the <input> has this custom toggle
 ![layout](2-layout.png)
 
 
-Solution:
+Solution: [2-styles.css](2-styles.css)
 ![ToggleHolberton.gif](ToggleHolberton.gif)
-[2-styles.css](2-styles.css)
-
 ---
-
 ### 3. Menu
 #### Layout:
 ![layout](3-layout.gif)
 
 Generate this layout/animation
 
-Solution:
+Solution: [3-styles.css](3-styles.css)
 ![MenuHolberton.gif](MenuHolberton.gif)
-[3-styles.css](3-styles.css)
+---
