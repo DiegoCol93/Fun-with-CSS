@@ -1,0 +1,126 @@
+/* General ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  --primary: #E1013C;
+  --white: #FFFFFF;
+}
+
+input {
+  display: none;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Menu ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ */
+.menu {
+  display: flex;
+  position: absolute;
+  width: 8em;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.menu-open-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 5em;
+  width: 5em;
+  background-color: var(--primary);
+  border: solid .1em var(--primary);
+  border-radius: 3em;
+  transform: scale(.9);
+  transition: .3s ease-in-out transform;
+}
+
+.menu-open-button:hover {
+  transform: scale(1.1);
+}
+
+#menu-open:checked ~ .menu-open-button {
+  transform: scale(.8);
+}
+
+.menu-line {
+  display: flex;
+  height: .15em;
+  width: 1.5em;
+  margin: .125em;
+  background-color: var(--white);
+  border-radius: 3em;
+  transition: .1s;
+}
+
+#menu-open:checked ~ .menu-open-button .menu-line-1 {
+  transform: translateY(.075em) rotate(-45deg);
+  margin: 0;
+}
+
+#menu-open:checked ~ .menu-open-button .menu-line-2 {
+  display: none;
+}
+
+#menu-open:checked ~ .menu-open-button .menu-line-3 {
+  transform: translateY(-.075em) rotate(45deg);
+  margin: 0;
+}
+
+/* Menu-item ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ */
+.menu-item {
+  display: flex;
+  opacity: 0;
+  z-index: -1;
+  height: 3em;
+  width: 3em;
+  margin-top: .5em;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  border: solid .1em var(--primary);
+  border-radius: 3em;
+  background-color: var(--primary);
+  color: var(--white);
+  transition: .3s ease-in-out transform, .3s ease-in-out opacity;
+}
+
+.menu-item:hover {
+  color: var(--primary);
+  background-color: var(--white);
+}
+
+#menu-open:checked ~ .menu-item {
+  opacity: 1;
+}
+
+.menu-item:nth-of-type(1) {
+  transform: translateY(-4em);
+}
+
+.menu-item:nth-of-type(2) {
+  transform: translateY(calc(-8em));
+}
+
+.menu-item:nth-of-type(3) {
+  transform: translateY(calc(-11em));
+}
+
+.menu-item:nth-of-type(4) {
+  transform: translateY(calc(-14.5em));
+}
+
+.menu-item:nth-of-type(5) {
+  transform: translateY(calc(-18.125em));
+}
+
+#menu-open:checked ~ .menu-item:nth-of-type(n) {
+  transform: translateY(0);
+  z-index: 1;
+}
